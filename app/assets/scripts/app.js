@@ -1,1 +1,1 @@
-alert("Тест хийж байна.")
+import '../styles/styles.css';
