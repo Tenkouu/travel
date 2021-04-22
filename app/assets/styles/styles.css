@@ -1,11 +1,19 @@
+@import 'modules/_large-hero.css';
+
 body {
-    color: darkblue;
+    font-family: "Roboto", sans-serif;
+    color: #333;
 }
 
-$mainBlue: #2f5572;
+img {
+    max-width: 100%;
+    height: auto;
+}
 
-.large-hero {
-    h2 {
-        color: $mainBlue;
-    }
+* {
+    box-sizing: border-box;
+}
+
+a {
+    color: $mainOrange;
 }
