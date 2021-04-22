@@ -10,3 +10,14 @@
     width: 100%;
     text-align: center;
 }
+
+.large-hero__title {
+    font-weight: 300;
+    color: $mainBlue;
+    margin: 0;
+    font-size: 2rem;
+
+    @mixin atSmall {
+        font-size: 4.8rem;
+    }
+}
