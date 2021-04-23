@@ -8,7 +8,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "dart-sass": "^1.25.0",
     "lodash": "^4.17.15",
+    "node-sass": "npm:dart-sass@^1.25.0",
     "normalize.css": "^8.0.1"
   },
   "devDependencies": {
